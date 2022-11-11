@@ -1,12 +1,18 @@
 <template>
   <div>
     <h1>Movie View</h1>
-    <br>
-    <MovieCard 
-      v-for="(movie, index) in movies" 
-      :movie="movie" 
-      :key="index" />
+    <div class="container text-center">
+      <div class="row">
+        <br>
+        <MovieCard
+          class="col-4"
+          v-for="(movie, index) in movies" 
+          :movie="movie" 
+          :key="index" />
+      </div>
+    </div>
   </div>
+
 </template>
 
 <script>
