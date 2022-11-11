@@ -2,10 +2,9 @@
   <div id="app">
     <nav>
       <router-link to="/">Home</router-link> |
-      <router-link to="/movies">MovieView</router-link> |
-      <router-link to="/random">RandomView</router-link> |
-      <router-link to="/watch-list">WatchListView</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/movies">Movie</router-link> |
+      <router-link to="/random">Random</router-link> |
+      <router-link to="/watch-list">Watch List</router-link>
     </nav>
     <router-view/>
   </div>
